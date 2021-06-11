@@ -1,0 +1,13 @@
+.buttons {
+    &__btn {
+        padding: .8rem 2rem;
+        color: white;
+        margin-right: 1rem;
+        &--message {
+            background-color: lightblue;
+        }
+        &--follow {
+            background-color: lightcoral;
+        }
+    }
+}

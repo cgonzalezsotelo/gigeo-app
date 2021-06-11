@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  &__text {
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__items {
+    font-size: 2rem;
+    &--hide {
+      visibility: hidden;
+    } 
+  } 
+}
+
+@media (min-width: 768px) {
+    .nav__items--hide {
+      visibility: visible;
+    }
+}
+
+@media (min-width: 768px) {
+  .nav__icons {
+    justify-content: flex-end;
+  }
+  .nav__items {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+}
